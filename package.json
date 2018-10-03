@@ -1,8 +1,8 @@
 {
-  "name": "universal_react_apollo_registration",
-  "version": "1.0.0",
-  "author": "Ashley Bibizadeh",
-  "license": "MIT",
+  "name": "engify-demo01",
+  "version": "0.0.1",
+  "author": "Luc Thomas",
+  "license": "MIT Template",
   "scripts": {
     "heroku-postbuild": "webpack --config webpack.server.js && webpack --config webpack.client.js",
     "build": "webpack --config webpack.server.js && webpack --config webpack.client.js",
