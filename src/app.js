@@ -18,7 +18,7 @@ import FAQ from './pages/policiesAndConditions/faq';
 import Users from './pages/users';
 import User from './pages/user';
 import NotFound from './pages/404';
-import QRCode from './pages/qrcode';
+import QRCodeViewer from './pages/qrcode';
 
 const Root = ({ refetch, session }) =>
     <Switch>
@@ -89,7 +89,7 @@ const Root = ({ refetch, session }) =>
         )} />
         <Route path="/qrcode" render={props => (
             <MainLayout>
-                <QRCode {...props} session={session}/>
+                <QRCodeViewer {...props} session={session}/>
             </MainLayout>
         )} />
         <Route path="/" exact render={props => (

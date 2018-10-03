@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 const head = () => {
     return (
         <Helmet bodyAttributes={{class: "termsPage"}}>
-            <title>Terms - ENGIFY</title>
+            <title>Terms &amp; Conditions - ENGIFY</title>
         </Helmet>
     );
 }

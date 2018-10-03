@@ -5,12 +5,12 @@ import { Helmet } from 'react-helmet';
 //Import withAuth function
 import withAuth from './../hoc/withAuth';
 
-class QRCode extends React.Component{
+class QRCodeViewer extends React.Component{
 
 	head(){
 		return(
 			<Helmet>
-			<title>QR Code- ENGIFY</title>
+			<title>QR Code - ENGIFY</title>
 			</Helmet>
 		)
 	}
@@ -32,4 +32,4 @@ class QRCode extends React.Component{
 //Export class QRCode
 //Restrict access to this page if not logged in
 
-export default withAuth(session => session && session.getCurrentUser)(QRCode);
+export default withAuth(session => session && session.getCurrentUser)(QRCodeViewer);
